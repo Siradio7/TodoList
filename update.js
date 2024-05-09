@@ -1,6 +1,5 @@
 document.addEventListener("click", (event) => {
     if (event.target.innerText !== "Modifier") {
-        console.log("Not found")
         return
     }
 
